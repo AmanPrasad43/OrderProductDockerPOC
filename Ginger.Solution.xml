@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="10d823eb-045b-4baa-93d1-055ca6816a91" ItemType="Solution" CreatedBy="Aman.Prasad" Created="202512161518" GingerVersion="25.4.0.0" Version="2" LastUpdateBy="Aman.Prasad" LastUpdate="202512161518" />
+<GingerRepositoryItem><Header ItemGuid="10d823eb-045b-4baa-93d1-055ca6816a91" ItemType="Solution" CreatedBy="Aman.Prasad" Created="202512161518" GingerVersion="25.4.0.0" Version="2" LastUpdateBy="Aman.Prasad" LastUpdate="202512161721" />
 <Solution EncryptedValidationString="Q1pWjYlyA+BkPYwiVIZ2+Q==" Guid="10d823eb-045b-4baa-93d1-055ca6816a91" Name="RogersPOC">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="Web" Guid="30f6a1f4-9cc5-4c55-b57e-426686eb03e1" Platform="Web" />
@@ -14,11 +14,11 @@
 </AskLisaConfiguration>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="Yes" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="15312287-6776-40e7-8ef2-95b2d5708af0" IsSelected="True" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" UploadArtifactsToCentralizedReport="Yes" />
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="Yes" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="1f31004c-dc54-48c2-9f86-5b5fee3f7506" IsSelected="True" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" UploadArtifactsToCentralizedReport="Yes" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
-<HTMLReportsConfiguration Guid="f6ee0eaf-e417-414c-8918-d069aef7ea0d" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" Seq="0" />
+<HTMLReportsConfiguration Guid="fc09aab1-f325-4a6f-b7ce-5ebc985b7491" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" Seq="0" />
 </HTMLReportsConfigurationSetList>
 
 <SealightsConfiguration>
@@ -28,6 +28,58 @@
 <SelfHealingConfig>
 <SolutionSelfHealingConfig Guid="a4b9b950-6e2a-466b-9629-79b55a3a5394" ImageMatcherAcceptableScore="60" PropertyMatcherAcceptableScore="60" UseImageMatcher="True" />
 </SelfHealingConfig>
+
+<SolutionCategories>
+<SolutionCategory Category="Product" Guid="43e9efad-e1bd-4be3-8012-2b8096bb9507">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="757aba20-78d5-4342-a94c-111be92f81b9" Value="Product 1" />
+<SolutionCategoryValue Guid="efcb05a0-c88e-421b-ae30-6d6cff51c5d9" Value="Product 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="TestType" Guid="0ea69d1a-ae5f-4296-8a40-3f64a0a4ff5c">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="cb63e5e0-d790-4b6f-9f06-753859de367a" Value="Regression" />
+<SolutionCategoryValue Guid="00f23695-6d43-4c37-8ce6-3579491207ea" Value="Progression" />
+<SolutionCategoryValue Guid="f902b8e6-0c17-4c38-8be6-c46f6616d751" Value="Sanity" />
+<SolutionCategoryValue Guid="6af00759-c2f6-46cf-bb0f-427e9992cc83" Value="Acceptance" />
+<SolutionCategoryValue Guid="565c1ec7-837e-4878-b025-56e9c964e8f2" Value="End to End" />
+<SolutionCategoryValue Guid="a5d641e4-108f-4925-b7d5-989c7f373c02" Value="Security" />
+<SolutionCategoryValue Guid="f71acb88-ef54-4101-8e42-47cac2c03cc7" Value="Performance" />
+<SolutionCategoryValue Guid="02c1a9b7-570b-4524-a48c-83cbefefd4f1" Value="Data Creation" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Release" Guid="366b2954-5905-4863-9069-f00fd0ca98d6">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="67108442-f059-4880-9403-42ecf3927584" Value="Release 1" />
+<SolutionCategoryValue Guid="c331e9dc-6e04-4e0a-800a-1613f5fd2288" Value="Release 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="Iteration" Guid="37716b5d-00cd-450f-a6ec-c8f33a151053">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="ec66cae3-24d8-4a10-b91f-4b8288286ffa" Value="Iteration 1" />
+<SolutionCategoryValue Guid="c903f003-280f-4d74-bba4-c08ebd8d1642" Value="Iteration 2" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="BusinessProcessTag" Guid="11efa129-1dea-4aa5-855d-1b6eb961358d">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="0163f76b-71f6-4db7-b46f-029c6218b32c" Value="Prepaid" />
+<SolutionCategoryValue Guid="455c9ffd-5c27-44a4-8605-ab5142f4793e" Value="Postpaid" />
+<SolutionCategoryValue Guid="eda4eb8a-6201-4bfb-bde7-2a8f087cdffc" Value="Customer Creation" />
+<SolutionCategoryValue Guid="99e764b4-43ee-4997-8017-f6b186edf97e" Value="Subscriber Creation" />
+<SolutionCategoryValue Guid="c56d1fb3-bbdc-4739-ab78-ad42a5825a05" Value="Contact Creation" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="SubBusinessProcessTag" Guid="611404ec-c59b-4c76-9861-9208d8a8066e">
+<CategoryOptionalValues>
+<SolutionCategoryValue Guid="c37e8221-74b6-427b-9c53-eb4a89be1c92" Value="Customer Payment (CP)" />
+<SolutionCategoryValue Guid="a5d3aab6-ee44-4eeb-97dd-7b9198629fbc" Value="Customer Question (CHQ)" />
+<SolutionCategoryValue Guid="e9973d92-ccf5-48cd-82b7-c4d5177359a4" Value="Order Creation (COP)" />
+</CategoryOptionalValues>
+</SolutionCategory>
+<SolutionCategory Category="UserCategory1" Guid="d556352f-efc5-4db9-a6b9-3e5b92d4ad28" />
+<SolutionCategory Category="UserCategory2" Guid="1f5867f0-d449-4e55-a6af-c0be09af385e" />
+<SolutionCategory Category="UserCategory3" Guid="aac9751a-6ae2-49d1-a9a9-ec0ce3c38a62" />
+</SolutionCategories>
 
 <VRTConfiguration>
 <VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="8d027821-5266-42e1-9e14-6866ffd82977" />
