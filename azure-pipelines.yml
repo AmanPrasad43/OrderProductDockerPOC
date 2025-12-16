@@ -1,0 +1,18 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- RogersPOC
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+- script: echo Ginger Docker execution stareted
+- script: docker pull ghcr.io/ginger-automation/gingerruntime-jammy:2024.5.0  docker run --env Default run --env Default --encrypted --url https://github.com/AmanPrasad43/OrderProductDockerPOC.git --encryptionKey "Amdocs@9975" --branch RogersPOC --pass "3UOu32OglhUIA3Kz6QHXwZKMT2bYzUy8+1PmwnMkDF2OEbcz9WCEf9KPmwHF22pSIu7yadSNxYSetRebZR9LOOUwQJ610zWFizvC/oG6plh1aHaEE6QMLDfynp0ulBrM" --runset "Default Run Set" --solution C:\Users\Aman.Prasad\Documents\RogersPOC --sourceApplication "Ginger CLI" --sourceApplicationUser Aman.Prasad --type GIT --user AmanPrasad43 
+- script: echo See https://aka.ms/yaml execution of ginger docker endded
+  displayName: 'Run a multi-line script'
