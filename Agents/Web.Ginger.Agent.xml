@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a15b74b2-1116-49d7-8693-ba386cf63979" ItemType="Agent" CreatedBy="Aman.Prasad" Created="202512161518" GingerVersion="25.4.0.0" Version="1" LastUpdateBy="Aman.Prasad" LastUpdate="202512161518" />
+<Agent AgentType="Driver" DriverType="Selenium" Guid="a15b74b2-1116-49d7-8693-ba386cf63979" Name="Web" Platform="Web">
+<DriverConfiguration>
+<DriverConfigParam Description="Proxy Auto Config Url" Guid="8e05dd6b-bc26-42e9-98e1-e50dd9953114" Parameter="ProxyAutoConfigUrl" />
+<DriverConfigParam Description="EnableNativeEvents(true) so as to perform native events smoothly on IE " Guid="04287c2f-9780-4fc6-9324-bcdfbd024ac9" Parameter="EnableNativeEvents" Value="false" />
+<DriverConfigParam Description="Auto Detect Proxy Setting?" Guid="f81b9539-3094-49a6-94b9-76c23a0dfdc1" Parameter="AutoDetect" Value="true" />
+<DriverConfigParam Description="Path to extension to be enabled" Guid="d5da2088-b32f-4a26-8e6d-6c49e2572b7b" Parameter="ExtensionPath" />
+<DriverConfigParam Description="Only for Internet Explorer |  Set &quot;false&quot; if dont want to clear the Internet Explorer cache before launching the browser" Guid="981ba43b-be3b-4c99-a815-482a18dd9135" Parameter="EnsureCleanSession" Value="true" />
+<DriverConfigParam Description="Ignore Internet Explorer protected mode" Guid="3cc67a6e-90a7-4fa3-941b-8290c8f84084" Parameter="IgnoreIEProtectedMode" Value="true" />
+<DriverConfigParam Description="Only for Internet Explorer &amp; Firefox | Set &quot;true&quot; for using 64Bit Browser" Guid="90db4cf2-e406-4f77-8576-e7d76ec684f4" Parameter="Use64Bitbrowser" Value="false" />
+<DriverConfigParam Description="Use specific Version of browser. Only Testing browser versions are supported." Guid="c75f75b8-f863-430f-90e6-9d2e3c5d3dd2" Parameter="BrowserVersion" />
+<DriverConfigParam Description="Use Browser In Private/Incognito Mode (Please use 64bit Browse with Internet Explorer " Guid="586738f1-3e59-41fb-a680-2c33f3f9222e" Parameter="BrowserPrivateMode" Value="false" />
+<DriverConfigParam Description="Set &quot;true&quot; to Launch the Browser minimized" Guid="39133d30-e137-4fa5-b441-8880832817e5" Parameter="BrowserMinimized" Value="false" />
+<DriverConfigParam Description="Set the minimum log level to read the console logs from the browser console." Guid="19738eec-0702-4062-9d7e-88e57f0f7df1" Parameter="BrowserLogLevel" Value="3" />
+<DriverConfigParam Description="Only for Edge: Open Edge browser in IE Mode" Guid="09984fa6-4513-4153-8b14-7d302f692d33" Parameter="OpenIEModeInEdge" Value="false" />
+<DriverConfigParam Description="Provide the path to the browser executable." Guid="a26b5529-fc14-4990-9868-bb908958dce1" Parameter="BrowserExecutablePath" />
+<DriverConfigParam Description="Hide the Driver Console (Command Prompt) Window" Guid="ddb02e84-1d51-482a-a569-14217465f45e" Parameter="HideConsoleWindow" Value="false" />
+<DriverConfigParam Description="Only For Chrome : Use a valid device name from the DevTools Emulation panel." Guid="dfdeff68-8f1e-46f8-9d72-706a45f59a51" Parameter="EmulationDeviceName" />
+<DriverConfigParam Description="Only For Chrome &amp; Firefox : A browser's user agent string (UA) helps identify which browser is being used, what version, and on which operating system" Guid="33fce71b-dd1e-434e-8347-9c0bc4b94a55" Parameter="BrowserUserAgent" />
+<DriverConfigParam Description="The height in pixels of the browser's viewable area" Guid="7f74e2bc-87a9-4801-b961-149fc60c5fe4" Parameter="BrowserHeight" />
+<DriverConfigParam Description="The width in pixels of the browser's viewable area" Guid="dbcf47ca-2a4d-4f58-af08-6c8ed841bdcc" Parameter="BrowserWidth" />
+<DriverConfigParam Description="Only for Chrome, Firefox, Edge and Brave | Full path for the User Profile folder" Guid="29432426-0bd8-4063-bb11-22bbba6aaf36" Parameter="UserProfileFolderPath" />
+<DriverConfigParam Description="Only for Chrome | Define Download Folder path" Guid="c54dabf5-99bc-436a-878d-f6d08464c9a1" Parameter="DownloadFolderPath" />
+<DriverConfigParam Description="Amount of time the driver should wait when searching for an element if it is not immediately present" Guid="03c20131-c79c-464f-859d-f858d26883e8" Parameter="ImplicitWait" Value="30" />
+<DriverConfigParam Description="HttpServer Timeout for Web Action Completion. Default/Recommended is minimum 60 secs" Guid="0777afec-e875-4b24-af78-24ca9428389f" Parameter="HttpServerTimeOut" Value="60" />
+<DriverConfigParam Description="PageLoad Timeout for Web Action Completion" Guid="b53b0ee8-0ba3-4064-adb7-c4a997ffdcc5" Parameter="PageLoadTimeOut" Value="60" />
+<DriverConfigParam Description="Defines the current session’s page loading strategy.you can change from the default parameter of normal to eager or none" Guid="8edf2aa7-8d30-4bf5-a425-7db2e1df01d9" Parameter="PageLoadStrategy" Value="Normal" />
+<DriverConfigParam Description="Start BMP - Browser Mob Proxy (true/false)" Guid="f9f3bb25-2ae2-4c1e-b8b0-d7b85a4a9236" Parameter="StartBMP" Value="false" />
+<DriverConfigParam Description="Start BMP .BAT File - full path to BMP BAT file" Guid="fb9d1c2b-38e0-4490-a985-ad96821ae444" Parameter="StartBMPBATFile" Value="C:\...\browsermob\bin\browsermob-proxy.bat" />
+<DriverConfigParam Description="Start BMP Port" Guid="a429c008-0201-4fed-9c4d-3fba4d6bca76" Parameter="StartBMPPort" Value="9090" />
+<DriverConfigParam Description="Take Only Active Frame Or Window Screen Shot In Case Of Failure" Guid="43264623-2124-4ba9-abeb-9c23e1b61fc9" Parameter="TakeOnlyActiveFrameOrWindowScreenShotInCaseOfFailure" Value="false" />
+<DriverConfigParam Description="Start network monitoring log." Guid="4d7add94-9788-4306-b1e9-eb83fd7730b2" Parameter="StartNetworkMonitoring" Value="false" />
+<DriverConfigParam Description="Selenium line arguments || Set Selenium arguments separated with ; sign" Guid="3b2b21a8-2c5b-4875-812a-dfe9a3f91af4" Parameter="SeleniumUserArguments" />
+<DriverConfigParam Description="Change to Iframe automatically in case of POM Element execution " Guid="ad31dafb-e6e7-49c5-aa8d-750365d1c34c" Parameter="HandelIFramShiftAutomaticallyForPomElement" Value="true" />
+<DriverConfigParam Description="Sample Value is 'localhost:9222'.This allows to Connect to existing browser session on specific debug port instead of Launching a new browser" Guid="5a9d53e8-c5f8-46b9-b798-a01371b9e9a0" Parameter="DebugAddress" />
+<DriverConfigParam Description="Specifies the state of current session’s user prompt handler, You can change it from dismiss, accept, dismissAndNotify, acceptAndNotify, ignore" Guid="af3f8f46-ac01-44b6-af50-2e659062e4d7" Parameter="UnhandledPromptBehavior" Value="DismissAndNotify" />
+<DriverConfigParam Description="Use custom browser driver. Provide complete driver path with file extension" Guid="c4f4f6c9-5780-4a2c-ac27-a45038205d84" Parameter="DriverFilePath" />
+<DriverConfigParam Description="Browser Type" Guid="9978d505-3f0a-472e-87e2-53df75709d5d" Parameter="BrowserType" Value="Chrome" />
+<DriverConfigParam Description="Remote Web Driver Url" Guid="bf9a788a-f480-4c5b-bee5-898b7ad0a178" Parameter="RemoteWebDriverUrl" />
+<DriverConfigParam Description="Allow ZAP to Perform Security Testing" Guid="44f4e973-204b-45c8-aedb-a8d1cf07a07c" Parameter="UseSecurityTesting" Value="false" />
+<DriverConfigParam Description="Proxy Server:Port" Guid="a9b0c126-bcc3-420f-847e-c50f68a1cedf" Parameter="Proxy" />
+<DriverConfigParam Description="Set multiple By Pass Proxy URLs separated with ';'|| By Pass Proxy works only when Proxy URL is mentioned" Guid="ac2e39bf-2b60-4797-b424-ab8402671e57" Parameter="ByPassProxy" Value="http://127.0.0.1;http://localhost;" />
+<DriverConfigParam Description="Set &quot;true&quot; to run the browser in background (headless mode) for faster Execution" Guid="d728e5ec-44ce-4395-871e-cb697ed19805" Parameter="HeadlessBrowserMode" Value="false" />
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="e7f391c8-4bc3-4e4c-a3b5-eeaa2d383b5c" Parameter="DriverLoadWaitingTime" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>

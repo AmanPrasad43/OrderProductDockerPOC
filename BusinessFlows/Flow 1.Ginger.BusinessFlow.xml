@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="89c5fd58-38b0-40f1-bf7a-8b714c922d85" ItemType="BusinessFlow" CreatedBy="Aman.Prasad" Created="202512161518" GingerVersion="25.4.0.0" Version="3" LastUpdateBy="Aman.Prasad" LastUpdate="202512161720" />
+<BusinessFlow DevelopmentTime="00:00:44" Guid="89c5fd58-38b0-40f1-bf7a-8b714c922d85" Name="Dummy" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" DevelopmentTime="00:00:13" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="cb79e57b-8d1f-439d-829c-aa028ae5d588" PercentAutomated="100%" TargetApplication="Web" Type="Regular">
+<Acts>
+<ActDummy Active="True" AutoScreenShotOnFailure="False" Description="Dummy Action" Guid="9b329416-6ba7-4f74-81ca-ac61b0641cdd" Platform="NA" RetryMechanismInterval="5" RunDescription="uhu" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="fbd37499-8ec7-4d14-91fa-35230331014a" Param="Value" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="55be9aba-eaab-4fc8-abdb-8360b5227e3a" Name="Group">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="cb79e57b-8d1f-439d-829c-aa028ae5d588" ActivityName="Activity 1" Guid="15023f8b-9b4a-4d12-8b96-627d78600744" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Web" Guid="5918b927-7fb2-487c-96b7-d142752a1d63" LastExecutingAgentName="Web" ParentGuid="30f6a1f4-9cc5-4c55-b57e-426686eb03e1" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
