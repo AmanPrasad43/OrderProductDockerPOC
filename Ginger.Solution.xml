@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="10d823eb-045b-4baa-93d1-055ca6816a91" ItemType="Solution" CreatedBy="Aman.Prasad" Created="202512161518" GingerVersion="25.4.0.0" Version="2" LastUpdateBy="Aman.Prasad" LastUpdate="202512161518" />
+<Solution EncryptedValidationString="Q1pWjYlyA+BkPYwiVIZ2+Q==" Guid="10d823eb-045b-4baa-93d1-055ca6816a91" Name="RogersPOC">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="Web" Guid="30f6a1f4-9cc5-4c55-b57e-426686eb03e1" Platform="Web" />
+</ApplicationPlatforms>
+
+<ApplitoolsConfiguration>
+<ApplitoolsConfiguration Guid="d4e7f8b9-120d-45eb-befa-541d1fcdd19f" />
+</ApplitoolsConfiguration>
+
+<AskLisaConfiguration>
+<AskLisaConfiguration Account="Ginger" ContinueChat="AQEQABot/Lisa/ContinueChat" DataPath="./Data/Ginger" DomainType="Knowledge Management" EnableChat="No" GrantType="client_credentials" Guid="1540b146-7a29-4a26-9445-887a3d6cc760" MaxTokenValue="2000" StartNewChat="AQEQABot/Lisa/StartNewChat" TemperatureLevel="0.1" />
+</AskLisaConfiguration>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="Yes" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="15312287-6776-40e7-8ef2-95b2d5708af0" IsSelected="True" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" UploadArtifactsToCentralizedReport="Yes" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="f6ee0eaf-e417-414c-8918-d069aef7ea0d" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" Seq="0" />
+</HTMLReportsConfigurationSetList>
+
+<SealightsConfiguration>
+<SealightsConfiguration Guid="573502af-70b3-4b1a-b1c7-81197c4a0059" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsTestRecommendations="No" />
+</SealightsConfiguration>
+
+<SelfHealingConfig>
+<SolutionSelfHealingConfig Guid="a4b9b950-6e2a-466b-9629-79b55a3a5394" ImageMatcherAcceptableScore="60" PropertyMatcherAcceptableScore="60" UseImageMatcher="True" />
+</SelfHealingConfig>
+
+<VRTConfiguration>
+<VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="8d027821-5266-42e1-9e14-6866ffd82977" />
+</VRTConfiguration>
+</Solution></GingerRepositoryItem>
